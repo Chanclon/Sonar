@@ -15,6 +15,7 @@ This repository contains the C code for a sonar system developed for the MSP430F
 * **Microcontroller:** Texas Instruments MSP430FR6989
 * **Components:** * Servomotor
   * Ultrasonic Sensor (e.g., HC-SR04)
+  * Resistors (for voltage divider)
 
 ---
 
@@ -37,9 +38,14 @@ To replicate this project, make the following connections between your component
 | Component | MSP430FR6989 Pin | Description |
 | :--- | :--- | :--- |
 | **Ultrasonic Sensor** | `P1.4` | Trigger Signal (TRIG) - Output |
-| **Ultrasonic Sensor** | `P1.5` | Echo Signal (ECHO) - Input with Interrupt |
+| **Ultrasonic Sensor** | `P1.5` | Echo Signal (ECHO) - Input with Interrupt (via Voltage Divider) |
 | **Servomotor** | `P1.6` | Position Control Signal - Output |
 | **UART (TX/RX)** | `P3.4` / `P3.5` | Data Transmission and Reception |
+
+### ⚠️ Important Hardware Note (Voltage Protection)
+The ultrasonic sensor operates at **5V** and outputs a 5V logic signal on its `Echo` pin. However, the MSP430FR6989 microcontroller operates strictly at **3.3V**. 
+* **The Issue:** Connecting the `Echo` pin directly to `P1.5` inputs an overvoltage that causes the microcontroller to automatically reset to prevent damage.
+* **The Solution:** A **voltage divider** using resistors must be built on the breadboard (protoboard) to safely step down the 5V `Echo` output to a safe 3.3V level before routing it to the microcontroller pin.
 
 ---
 
