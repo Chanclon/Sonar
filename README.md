@@ -69,7 +69,7 @@ You can watch a real-time demonstration of this sonar in action at the following
 
 ## 👨‍💻 Contact
 
-Created by **[Gonzalo /Ripoll]**. 
+Created by **[Gonzalo Ripoll Chanclon]**. 
 
 If you'd like to learn more about my work or connect professionally, you can find me here:
 
