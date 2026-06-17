@@ -3,6 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c)
 ![IDE](https://img.shields.io/badge/IDE-Code_Composer_Studio-green?style=for-the-badge&logo=eclipse)
 ![Microcontroller](https://img.shields.io/badge/Microcontroller-MSP430FR6989-red?style=for-the-badge)
+![Fusion 360](https://img.shields.io/badge/Autodesk%20Fusion%20360-%23E93C40.svg?style=for-the-badge&logo=autodesk&logoColor=white)
 
 This repository contains the C code for a sonar system developed for the MSP430FR6989 microcontroller. The system uses a servomotor to perform sweeps and an ultrasonic sensor to detect the distance of objects in real-time, sending the results via serial communication (UART).
 
@@ -12,10 +13,19 @@ This repository contains the C code for a sonar system developed for the MSP430F
 
 * **Language:** C
 * **Development Environment:** Code Composer Studio (CCS)
+* **3D Design:** Autodesk Fusion 360
 * **Microcontroller:** Texas Instruments MSP430FR6989
-* **Components:** * Servomotor
+* **Components:** 
+  * Servomotor
   * Ultrasonic Sensor (e.g., HC-SR04)
   * Resistors (for voltage divider)
+  * Custom 3D printed base
+
+---
+
+## 🖨️ Custom 3D Printed Base
+
+To hold the system together, the physical structure of the sonar (the base and mounts) was entirely custom-designed by me using **Autodesk Fusion 360** and later **3D printed**. This custom mount ensures a perfect fit for both the servomotor and the ultrasonic sensor, allowing it to perform smooth and stable sweeps.
 
 ---
 
@@ -53,14 +63,14 @@ The ultrasonic sensor operates at **5V** and outputs a 5V logic signal on its `E
 
 You can watch a real-time demonstration of this sonar in action at the following link:
 
-[![YouTube Demonstration](https://img.shields.io/badge/YouTube-Watch_Video-red?style=for-the-badge&logo=youtube)](YOUR_YOUTUBE_VIDEO_LINK_HERE)
+[![YouTube Demonstration](https://img.shields.io/badge/YouTube-Watch_Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/aFmkXT8TLmY?is=pJZSEPJJsNDwtfes)
 
 ---
 
 ## 👨‍💻 Contact
 
-Created by **[Your Name/Last Name]**. 
+Created by **[Gonzalo /Ripoll]**. 
 
 If you'd like to learn more about my work or connect professionally, you can find me here:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-My_Profile-blue?style=for-the-badge&logo=linkedin)](YOUR_LINKEDIN_LINK_HERE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-My_Profile-blue?style=for-the-badge&logo=linkedin)](linkedin.com/in/chanclon)
