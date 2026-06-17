@@ -73,4 +73,4 @@ Created by **[Gonzalo Ripoll Chanclon]**.
 
 If you'd like to learn more about my work or connect professionally, you can find me here:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-My_Profile-blue?style=for-the-badge&logo=linkedin)](linkedin.com/in/chanclon)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-My_Profile-blue?style=for-the-badge&logo=linkedin)](linkedin.com/in/chanclon)]
